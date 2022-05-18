@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehmet Emin Kurt | Project-1</title>
+    <meta name="keywords" content="Html,Html5,Css,Css3"> 
+    <meta name="description" content="Mehmet Emin Kurt | Project-1">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--cdnjs.com/Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Tablet-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+</head>
+<body>
+
+    <header class="bg-dark-blue">
+        <div class="container">
+        <nav id="navbar">
+            <h1 class="heading-small">Mehmet Emin Kurt</h1>
+            <ul>
+                <li><a href="#home">Anasayfa</a></li>
+                <li><a href="#training">Eğitimler</a></li>
+                <li><a href="#courses">Kurslar</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <section id="home">
+        <img src="./images/logo.jpg" alt="Mehmet Emin Kurt"  oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+        <div class="name text-center">
+            <h2 class="heading-big">Mehmet Emin Kurt</h2>
+            <p>Software Developer | Web Developer</p>
+        </div>
+        <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-meidum">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online İçerikler</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eum.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eum.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sınıf İçi Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eum.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-meidum">Kurslar</h3>
+        <div class="container">
+            <div class="courses">
+
+                <!--Course 1-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/html.png" alt="Html" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+                        <span>%90 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Komple Html5 Geliştirici Kursu
+                        </div>
+                        <div class="description">
+                            Komple Html5 Geliştirici Kursu | Sıfırdan Html5 Öğrenin
+                        </div>
+                        <div class="instructor">Mehmet Emin Kurt</div>
+                        <div class="rating">4.6 | (7000 Oylama)</div>
+                    </div>
+                </div>
+
+                <!--Course 2-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/css.jfif" alt="Css" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+                        <span>%90 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Komple Css3 Geliştirici Kursu
+                        </div>
+                        <div class="description">
+                            Komple Css3 Geliştirici Kursu | Sıfırdan Css3 Öğrenin
+                        </div>
+                        <div class="instructor">Mehmet Emin Kurt</div>
+                        <div class="rating">4.6 | (9000 Oylama)</div>
+                    </div>
+                </div>
+                
+                <!--Course 3-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/responsive.jfif" alt="Responsive" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+                        <span>%90 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Komple Responsive Tasarım Geliştirici Kursu
+                        </div>
+                        <div class="description">
+                            Komple Responsive Tasarım Geliştirici Kursu | Sıfırdan Responsive Tasarım Öğrenin
+                        </div>
+                        <div class="instructor">Mehmet Emin Kurt</div>
+                        <div class="rating">4.6 | (6500 Oylama)</div>
+                    </div>
+                </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" rows="5" class="form-control" placeholder="Mesajınız..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
